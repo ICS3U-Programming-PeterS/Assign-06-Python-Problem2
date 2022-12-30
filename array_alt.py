@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+
+
+# Created by: Peter Sobowale
+# Created on: Dec 29 2022
+# This program gets 2 lists of numbers and combines them
+
+
 def alternating_elements(list1, list2):
     # Create an empty result list
     result = []
