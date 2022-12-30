@@ -1,12 +1,3 @@
-#!/usr/bin/env python3
-
-
-# Created by: Peter Sobowale
-# Created on: Dec 29 2022
-# This program asks the user to enter 2 lists of different elements
-# It then displays the new list with alternating elements
-
-
 def alternating_elements(list1, list2):
     # Create an empty result list
     result = []
@@ -29,18 +20,16 @@ def main():
     )
 
     # Prompt the user to enter the first list
-    list1_str = input("Enter a list of elements, separated by commas(with spaces): ")
+    list1_str = input("Enter a list of elements, separated by spaces: ")
 
     # Split the string into a list of elements
-    list1 = list1_str.split(", ")
+    list1 = list1_str.split(" ")
 
     # Prompt the user to enter the second list
-    list2_str = input(
-        "Enter a second list of elements, separated by commas(with spaces): "
-    )
+    list2_str = input("Enter a second list of elements, separated by spaces: ")
 
     # Split the string into a list of elements
-    list2 = list2_str.split(", ")
+    list2 = list2_str.split(" ")
 
     # formatting
     print()
